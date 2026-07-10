@@ -74,7 +74,7 @@ Java Silverの学習を進める中で、自身の資格試験学習の進捗を
 - 資格登録
 - 資格選択
 
-images/top.png
+![トップ画面top.png
 
 ### 成績画面
 
@@ -82,13 +82,13 @@ images/top.png
 - 学習時間入力
 - 統計表示
 
-images/score.png
+![成績画面](images/g
 
 ### ファイル画面
 
 - 保存内容確認
 
-images/file.png
+![ファイル画file.png
 ---
 
 ## 工夫した点
