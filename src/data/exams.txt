@@ -1,9 +1,0 @@
-IPA001|基本情報技術者試験|基本情報技術者試験|60
-IPA002|応用情報技術者試験|応用情報技術者試験|65
-IPA003|情報処理安全確保支援士試験|情報処理安全確保支援士試験|65
-ORACLE001|Oracle Database認定資格|Oracle Database|70
-AWS001|AWS Certified Solutions Architect|AWS|72
-JAVA001|Oracle Certified Associate Java Programmer|Java|65
-TOEIC001|TOEIC|TOEIC|600
-EIKEN001|実用英語技能検定|英検|75
-JAVA002|Java Silver|Java|39

@@ -17,6 +17,7 @@ public class FileDataManager {
 
     private static void ensureDataDirectory() {
         File dir = new File(DATA_DIR);
+        System.out.println(dir.getAbsolutePath());         
         if (!dir.exists()) {
             dir.mkdirs();
         }

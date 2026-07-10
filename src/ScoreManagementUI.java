@@ -1,4 +1,4 @@
-﻿import java.awt.BorderLayout;
+import java.awt.BorderLayout;
 import java.awt.CardLayout;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
