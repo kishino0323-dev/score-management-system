@@ -74,7 +74,7 @@ Java Silverの学習を進める中で、自身の資格試験学習の進捗を
 - 資格登録
 - 資格選択
 
-images/top.png
+![トップ画面](images/top.png "トップ画面")
 
 ### 成績画面
 
