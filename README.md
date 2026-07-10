@@ -82,13 +82,13 @@ Java Silverの学習を進める中で、自身の資格試験学習の進捗を
 - 学習時間入力
 - 統計表示
 
-images/score.png
+![成績画面](images/score.png "成績画面")
 
 ### ファイル画面
 
 - 保存内容確認
 
-imagesfile.png
+![ファイル画面](imagesfile.png "ファイル画面")
 ---
 
 ## 工夫した点
