@@ -207,10 +207,7 @@ public class ScoreManagementUI {
         saveButton.addActionListener(e -> saveCurrentResult());
         panel.add(saveButton, gbc);
 
-        gbc.gridx = 1;
-        JButton fileButton = new JButton("ファイル画面へ");
-        fileButton.addActionListener(e -> showCard("file"));
-        panel.add(fileButton, gbc);
+    
 
         return panel;
     }
