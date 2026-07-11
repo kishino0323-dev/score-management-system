@@ -31,6 +31,7 @@ public class ScoreManagementUI {
     private final JTextField scoreField;
     private final JTextField studyHoursField;
     private final JTextField examNameField;
+    private final JTextField targetScoreField;
     private final JTextArea fileSummaryArea;
     private final JList<Exam> examList;
     private Exam selectedExam;
@@ -46,6 +47,7 @@ public class ScoreManagementUI {
         this.scoreField = new JTextField(10);
         this.studyHoursField = new JTextField(10);
         this.examNameField = new JTextField(20);
+        this.targetScoreField = new JTextField(10);
         this.fileSummaryArea = new JTextArea();
         this.examList = new JList<>();
         this.selectedExam = null;
@@ -129,6 +131,12 @@ public class ScoreManagementUI {
         rightPanel.add(new JLabel("資格名を入力して登録"), gbc);
         gbc.gridy++;
         rightPanel.add(examNameField, gbc);
+
+        gbc.gridy++;
+        rightPanel.add(new JLabel("目標点"), gbc);
+
+        gbc.gridy++;
+        rightPanel.add(targetScoreField, gbc);
 
         gbc.gridy++;
         JButton registerButton = new JButton("資格を登録");
@@ -243,7 +251,7 @@ public class ScoreManagementUI {
             return;
         }
 
-        Exam newExam = new Exam("EXAM" + System.currentTimeMillis(), name, name, 60);
+        Exam newExam = new Exam("EXAM" + System.currentTimeMillis(), name, name,Integer.parseInt(targetScoreField.getText().trim()));
         examManager.addExam(newExam);
         refreshExamList();
         examList.setSelectedValue(newExam, true);
